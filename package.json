@@ -1,0 +1,36 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "Api Server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "micro-dev",
+    "start": "NODE_ENV=production micro -l tcp://0.0.0.0:${PORT-3000}",
+    "test": "ava -v",
+    "test:coverage": "nyc ava"
+  },
+  "keywords": [
+    "api",
+    "micro"
+  ],
+  "author": "Gunjan Soni <gunjan.soni2002@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "micro": "^9.3.3",
+    "micro-cors": "^0.1.1",
+    "microrouter": "^3.1.3"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "micro-dev": "^3.0.0",
+    "nyc": "^13.1.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2",
+    "test-listen": "^1.1.0"
+  }
+}
