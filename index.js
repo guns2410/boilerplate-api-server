@@ -25,6 +25,8 @@ const cors = microCors({
 module.exports = cors(router(
   // responds to the ping events. Typically for health-checks
   get('/ping', api.ping),
+  
+  // Add your api endpoints here
 
   // returns the not found api if the end point is not found
   get('/*', api.notFound),
