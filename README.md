@@ -6,7 +6,7 @@ This is a boilerplate for creating an api server. Please follow the install inst
 
 Step 1: Clone the Repo
 ```bash
-git clone <repo> <folder_name>
+git clone https://github.com/guns2410/boilerplate-api-server.git <folder_name>
 ```
 Step 2: `cd` into the repo
 ```bash
